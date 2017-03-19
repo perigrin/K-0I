@@ -13,3 +13,6 @@
 - Hi <cap1>
 - Right, I got that the first time <cap1>
 - Okay you don't need to repat yourself <cap1>
+
++ What day is it?
+- It is (^getDayOfWeek()|^getDate()).
