@@ -15,6 +15,7 @@ Once you've installed their TTS system (swift) you'll need to enable `/dev/dsp` 
 # Link Dump
 
 * http://www.raspberryconnect.com/network/item/315-rpi3-auto-wifi-hotspot-if-no-internet
+* https://www.raspberrypi.org/documentation/hardware/raspberrypi/bootmodes/msd.md
 * http://joshondesign.com/2013/10/23/noderpi
 * http://superscriptjs.com/
 * https://www.cepstral.com
