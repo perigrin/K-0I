@@ -22,3 +22,4 @@ Once you've installed their TTS system (swift) you'll need to enable `/dev/dsp` 
 * https://github.com/kitt-ai/snowboy
 * https://github.com/arodland/Speech-Snowboy
 * https://github.com/golastmile/rasa_nlu
+* http://www.artofmanliness.com/2012/08/22/how-to-make-small-talk/
