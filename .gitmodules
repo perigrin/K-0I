@@ -1,0 +1,3 @@
+[submodule "rasa_nlu"]
+	path = rasa_nlu
+	url = git@github.com:golastmile/rasa_nlu.git
