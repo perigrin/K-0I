@@ -1,0 +1,231 @@
+{
+    "topics": {
+        "random": {
+            "name": "random",
+            "flags": {
+                "keep": "keep"
+            },
+            "keywords": [],
+            "filter": null,
+            "gambits": [
+                "K0pvBQCR",
+                "Fg1652AL",
+                "C3LSd0QV",
+                "o3z4pEuQ",
+                "eXrYb9EX",
+                "zXrUZgjA",
+                "hxG4C43N"
+            ]
+        }
+    },
+    "gambits": {
+        "K0pvBQCR": {
+            "trigger": {
+                "flags": {},
+                "filter": "^hasTag('hello')",
+                "question": false,
+                "raw": "*~2",
+                "clean": "\\s*((?:[^\\s]+\\s+){0,1}(?:[^\\s]+)?)\\s*"
+            },
+            "replies": [
+                "gZETN8f5",
+                "Df40cX6Y",
+                "9uRUIzAt",
+                "fuhiruxN",
+                "WtFr5kRL",
+                "H0LEe0r9",
+                "vOuIqyfj"
+            ],
+            "conditional": null,
+            "conversation": null,
+            "topic": "random"
+        },
+        "Fg1652AL": {
+            "trigger": {
+                "flags": {},
+                "filter": null,
+                "question": false,
+                "raw": "What is your name",
+                "clean": "What is your name"
+            },
+            "replies": [
+                "LHAyp97Z"
+            ],
+            "conditional": null,
+            "conversation": null,
+            "topic": "random"
+        },
+        "C3LSd0QV": {
+            "trigger": {
+                "flags": {
+                    "order": "ordered"
+                },
+                "filter": null,
+                "question": false,
+                "raw": "My name is *1",
+                "clean": "My name is\\s*((?:[^\\s]+\\s+){0,0}(?:[^\\s]+))\\s*"
+            },
+            "replies": [
+                "1QLyViyx",
+                "FbT4zrh9",
+                "0c9pGmLn"
+            ],
+            "conditional": null,
+            "conversation": null,
+            "topic": "random"
+        },
+        "o3z4pEuQ": {
+            "trigger": {
+                "flags": {},
+                "filter": null,
+                "question": true,
+                "raw": "What day is it",
+                "clean": "What day is it"
+            },
+            "replies": [
+                "ckXn0ZNJ",
+                "IVob4qQD",
+                "FMEbPa0f"
+            ],
+            "conditional": null,
+            "conversation": null,
+            "topic": "random"
+        },
+        "eXrYb9EX": {
+            "trigger": {
+                "flags": {},
+                "filter": null,
+                "question": false,
+                "raw": "define [a] *1",
+                "clean": "define(?:(?:\\s|\\b)+(?:a)(?:\\s|\\b)+|(?:\\s|\\b)+)\\s*((?:[^\\s]+\\s+){0,0}(?:[^\\s]+))\\s*"
+            },
+            "replies": [
+                "8cuLwjw6"
+            ],
+            "conditional": null,
+            "conversation": null,
+            "topic": "random"
+        },
+        "zXrUZgjA": {
+            "trigger": {
+                "flags": {},
+                "filter": null,
+                "question": false,
+                "raw": "* definition of *1",
+                "clean": "(?:(?=^|\\s)\\s*(?:.*)(?=\\s|$)\\s*)?definition of\\s*((?:[^\\s]+\\s+){0,0}(?:[^\\s]+))\\s*"
+            },
+            "replies": [
+                "Rh5WdJew"
+            ],
+            "conditional": null,
+            "conversation": null,
+            "topic": "random"
+        },
+        "hxG4C43N": {
+            "trigger": {
+                "flags": {},
+                "filter": null,
+                "question": false,
+                "raw": "*",
+                "clean": "(?:(?=^|\\s)\\s*(?:.*)(?=\\s|$)\\s*)?"
+            },
+            "replies": [
+                "afLaXK3G"
+            ],
+            "conditional": null,
+            "conversation": null,
+            "topic": "random"
+        }
+    },
+    "replies": {
+        "gZETN8f5": {
+            "string": "Hi!",
+            "filter": null,
+            "keep": false
+        },
+        "Df40cX6Y": {
+            "string": "Hi, how are you?",
+            "filter": null,
+            "keep": false
+        },
+        "9uRUIzAt": {
+            "string": "How are you?",
+            "filter": null,
+            "keep": false
+        },
+        "fuhiruxN": {
+            "string": "Hello",
+            "filter": null,
+            "keep": false
+        },
+        "WtFr5kRL": {
+            "string": "Howdy",
+            "filter": null,
+            "keep": false
+        },
+        "H0LEe0r9": {
+            "string": "Ola",
+            "filter": null,
+            "keep": false
+        },
+        "vOuIqyfj": {
+            "string": "Good ^getGreetingTimeOfDay()",
+            "filter": null,
+            "keep": false
+        },
+        "LHAyp97Z": {
+            "string": "K-0I, but you can call me koi.",
+            "filter": null,
+            "keep": false
+        },
+        "1QLyViyx": {
+            "string": "Hi <cap1>",
+            "filter": null,
+            "keep": false
+        },
+        "FbT4zrh9": {
+            "string": "Right, I got that the first time <cap1>",
+            "filter": null,
+            "keep": false
+        },
+        "0c9pGmLn": {
+            "string": "Okay you don't need to repat yourself <cap1>",
+            "filter": null,
+            "keep": false
+        },
+        "ckXn0ZNJ": {
+            "string": "I'm not sure.",
+            "filter": null,
+            "keep": false
+        },
+        "IVob4qQD": {
+            "string": "^getDOW()",
+            "filter": null,
+            "keep": false
+        },
+        "FMEbPa0f": {
+            "string": "^getDate()",
+            "filter": null,
+            "keep": false
+        },
+        "8cuLwjw6": {
+            "string": "^wordnetDefine()",
+            "filter": null,
+            "keep": false
+        },
+        "Rh5WdJew": {
+            "string": "^wordnetDefine()",
+            "filter": null,
+            "keep": false
+        },
+        "afLaXK3G": {
+            "string": "Yeah I don't even know what to say to that.",
+            "filter": null,
+            "keep": false
+        }
+    },
+    "checksums": {
+        "./chat/main.ss": "7ec11793f3993c6d9cb266022d556bda381a3cef"
+    },
+    "version": 1
+}

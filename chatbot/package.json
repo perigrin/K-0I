@@ -14,7 +14,8 @@
   "scripts": {
     "build": "babel src --presets babel-preset-es2015 --out-dir lib",
     "parse": "parse -f",
-    "start-express": "npm run build && node lib/server-express.js",
+    "cleanup": "cleanup",
+    "start-express": "npm run parse && npm run build && node lib/server-express.js",
     "start-telnet": "npm run build && node lib/server-telnet.js"
   }
 }
