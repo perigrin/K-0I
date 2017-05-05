@@ -6,6 +6,12 @@
         name: koi
         state: present
 
+    - name: check the k-0i repo out
+      git:
+        repo: https://github.com/perigrin/K-0I.git
+        accept_hostkey: true
+        dest: /home/koi/bot
+
   roles:
     - geerlingguy.nodejs
     - WebbyLab.perl
