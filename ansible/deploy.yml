@@ -1,0 +1,14 @@
+-
+  hosts: all
+  tasks:
+    - name: ensure user account exists
+      user:
+        name: koi
+        state: present
+
+  roles:
+    - geerlingguy.nodejs
+    - WebbyLab.perl
+    - greendayonfire.mongodb
+  vars:
+    - mongodb_daemon_name: mongodb
