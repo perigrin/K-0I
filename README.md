@@ -25,3 +25,9 @@ Once you've installed their TTS system (swift) you'll need to enable `/dev/dsp` 
 * https://github.com/golastmile/rasa_nlu
 * http://www.artofmanliness.com/2012/08/22/how-to-make-small-talk/
 * http://www.buydisplay.com/default/10-1-inch-raspberry-pi-screen-w-hdmi-video-vga-driver-board-1024x600
+
+# Similar Projects
+
+* https://www.kickstarter.com/projects/1598272670/dashbot-a-49-robot-for-your-dashboard
+* https://www.autopi.io/blog/speak-to-your-car-like-kitt-from-knight-rider/
+* https://media.ford.com/content/fordmedia/fna/us/en/news/2017/01/04/alexa-car-ford-amazon-shop-search-home.html
