@@ -1,9 +1,6 @@
 [submodule "rasa_nlu"]
 	path = rasa_nlu
 	url = git@github.com:golastmile/rasa_nlu.git
-[submodule "wiki"]
-	path = docs
-	url = git@github.com:perigrin/K-0I.wiki.git
 [submodule "docs"]
 	path = docs
 	url = git@github.com:perigrin/K-0I.wiki.git
